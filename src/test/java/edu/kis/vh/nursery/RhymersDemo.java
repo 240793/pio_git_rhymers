@@ -5,10 +5,10 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 class RhymersDemo {
 
-    public static final int MAX_RANGE = 15;
-    public static final int START_INDEX = 0;
-    public static final int VALUE = 20;
-    public static final int INDEX = 3;
+    private static final int MAX_RANGE = 15;
+    private static final int START_INDEX = 0;
+    private static final int VALUE = 20;
+    private static final int INDEX = 3;
 
     public static void main(String[] args) {
         Rhymersfactory factory = new DefaultRhymersFactory();
