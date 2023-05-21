@@ -16,7 +16,7 @@ class RhymersDemo {
         runProgram(factory);
 
     }
-
+// TODO: wyekstraktować osobno wstawianie i usuwanie elementów
     private static void runProgram(Rhymersfactory factory) {
         DefaultCountingOutRhymer[] rhymers = { factory.getStandardRhymer(), factory.getFalseRhymer(),
                 factory.getFIFORhymer(), factory.getHanoiRhymer()};

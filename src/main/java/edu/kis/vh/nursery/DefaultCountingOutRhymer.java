@@ -5,7 +5,7 @@ public class DefaultCountingOutRhymer {
     private static final int INITIAL = -1;
     private static final int MAX_SIZE = 12;
     private final int[] numbers = new int[MAX_SIZE];
-
+// TODO: usunąć nieużywany getter
     public int getTotal() {
         return total;
     }
